@@ -1,0 +1,64 @@
+:root{
+    font-size: 62.5%;
+    font-family: 'Alice', sans-serif;
+}
+
+*{
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: $bg-color url(../assets/imgs/bg-image.png) no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: $surface-color;
+    border-radius: 2.4rem;
+    padding: 2.4rem;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 1.6rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+    padding: 0 2.4rem 2.4rem;
+}
+
+footer{
+    width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2.8rem;
+}
+
+#page{
+    width: 80rem;
+    height: 144rem;
+    margin: 0 auto;
+    margin-top: 4.8rem;
+    margin-bottom: 10rem;
+    border-radius: 2.4rem;
+}
+
+#about{
+ ul{
+    list-style: none;
+ }
+}
+
+#ingredients{
+   ul{
+    padding-left: 2.4rem;
+   }
+}
